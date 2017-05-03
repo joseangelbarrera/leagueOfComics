@@ -217,7 +217,7 @@ input.question:invalid ~ input[type="submit"], textarea.question:invalid ~ input
 
 body {
 
-  background-image: url('/images/home_background.jpg');
+  background-image: url('tps://joseangelbarrera.github.io/leagueOfComics/images/home_background.jpg');
 /*     background-repeat: no-repeat;
     background-size: contain;
     background-position: center*/
@@ -230,13 +230,13 @@ body {
 @media only screen and (max-width: 720px) {
   body {
 
-    background-image: url('/images/home_background_mobile.jpg');
+    background-image: url('tps://joseangelbarrera.github.io/leagueOfComics/images/home_background_mobile.jpg');
   }
 }
 
 @media only screen and (max-width: 400px) {
   body {
-    background-image: url('/images/home_background_mobile_small.jpg');
+    background-image: url('tps://joseangelbarrera.github.io/leagueOfComics/images/home_background_mobile_small.jpg');
   }
 }
 
@@ -254,7 +254,11 @@ body {
     width: 100%;
 }
 
-.img-container img {
+
+
+/*https://joseangelbarrera.github.io/leagueOfComics/images/home_background.jpg
+
+*/.img-container img {
     padding: 0;
     margin: 0;
 }
