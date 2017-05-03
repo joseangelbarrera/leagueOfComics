@@ -227,6 +227,18 @@ body {
       background-repeat: no-repeat;
 }
 
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) {
+  body {
+    background-image: url('https://joseangelbarrera.github.io/leagueOfComics/images/home_background_mobile_small.jpg');
+  }
+}
+
+
+
 @media only screen and (max-width: 800px) {
   body {
 
@@ -234,11 +246,6 @@ body {
   }
 }
 
-@media only screen and (max-width: 400px) {
-  body {
-    background-image: url('https://joseangelbarrera.github.io/leagueOfComics/images/home_background_mobile_small.jpg');
-  }
-}
 
 .btn-lg, .btn-group-lg>.btn {
     padding: 18px 30px;
