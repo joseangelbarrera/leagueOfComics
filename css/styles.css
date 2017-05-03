@@ -227,7 +227,7 @@ body {
       background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 800px) {
   body {
 
     background-image: url('https://joseangelbarrera.github.io/leagueOfComics/images/home_background_mobile.jpg');
