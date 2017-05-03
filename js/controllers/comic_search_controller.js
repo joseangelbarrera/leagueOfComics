@@ -1,15 +1,9 @@
  angular.module('comicApp')
 
- .controller('searchController', function ($scope, comicAppService) { // Function with '$scope'(from html) and 'gameAppService' from service.js
+ .controller('searchController', function ($scope, comicAppService, $location) { // Function with '$scope'(from html) and 'gameAppService' from service.js
    $scope.comicInput = '' // That recives the input value from ng-model(index.html)
-   $scope.searchComicButton = function () {
+   $scope.onSearchComicButton = function () {
      console.log($scope.comicInput)
-
-     comicAppService
-             .searchComics($scope.comicInput)
-             .then(function (response) {
-               $scope.comiclist = response.data.results
-               console.log($scope.comiclist)
-             })
+     $location.path('/comic_results' + '/' + $scope.comicInput)
    }
  })

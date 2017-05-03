@@ -6,7 +6,7 @@ angular.module('comicApp')
               controller: 'searchController'
             })
 
-                 .when('/comic_results/:myComicList', {
+                 .when('/comic_results/:searchResults', {
                    templateUrl: 'templates/comic_results.html',
                    controller: 'resultsController'
                  })
