@@ -7,10 +7,9 @@
 
    // $scope.searchComicButton = function () {
    //   console.log($scope.comicInput)
-   console.log($routeParams)
    comicAppService.searchComics($routeParams.searchResults)
              .then(function (response) {
-               $scope.comiclist = response.data.results
+               $scope.comiclist = response
                console.log($scope.comiclist)
              })
  })
