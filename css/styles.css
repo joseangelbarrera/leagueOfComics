@@ -1,0 +1,59 @@
+
+/* index */
+
+
+
+
+/* game-info template */
+/** {
+    border: blue 1px solid;
+}
+*/
+ 
+
+
+.btn-lg, .btn-group-lg>.btn {
+    padding: 18px 30px;
+    font-size: 19px;
+    line-height: 1.3333333;
+    border-radius: 0;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.desc-img-container {
+    display: flex;
+    width: 100%;
+}
+
+.img-container img {
+    padding: 0;
+    margin: 0;
+}
+
+
+.comiclist {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	color: red;
+	font-size: 18px;
+   display: -webkit-flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   margin top:50px;
+
+
+}
+
+    .comiclist li {
+    width: 200px;
+	border: 1px;
+	border-color: grey;
+        }
+
+
+.jumbotron{
+/*	background-image: url(http://cdn.gamers.vg/wp-content/uploads/2016/01/gj0ykbay7cewf84f0sd7.jpg);
+*/	
+}

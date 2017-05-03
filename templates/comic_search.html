@@ -1,0 +1,22 @@
+
+<div class="jumbotron ">
+    <div class="container">
+        <div class="form-group">
+            <label class="control-label" for="focusedInput"></label>
+            <h2>Search game<h2>
+                <input ng-model="comicInput" class="form-control" id="focusedInput" type="text" placeholder="Your search">
+                <button ng-click="searchComicButton()" href="#" class="btn btn-primary btn-lg btn-block">Search comic</button>
+        </div>
+    </div>
+</div>
+
+<div  class="col-xs-12">
+    <ul id="" class="input comiclist list-unstyled">
+        <li ng-repeat="comic in comiclist">
+            <img class="img-responsive" ng-src="{{comic.image.super_url}}">
+            <h4 class="text-center"><a href="{{comic.api_detail_url}}">{{comic.name}}</a> </h4>
+    
+        </li>
+    </ul>
+</div>
+    
