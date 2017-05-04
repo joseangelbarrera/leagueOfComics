@@ -8,8 +8,8 @@
 /** {
     border: blue 1px solid;
 }
-*/
- 
+
+ */
  /*
 +++++++++++++++++++++++++++++++++++
 this is the code for the imput area from search templeate
@@ -29,12 +29,12 @@ display: block;
   font-size: 52px;
 
  }
+
+
 body {
   margin: 5% auto 0 auto;
   width: 90%;
   max-width: 1125px;
-
-
 }
 
 h1 {
@@ -44,7 +44,6 @@ h1 {
 
 input,
 span,
-
 textarea {
   font-family: 'Bangers', sans-serif;
 color: yellow;
@@ -94,8 +93,28 @@ input[type="submit"] {
   color: white;
 }
 
+.info
+{  text-decoration: none;   
+  color: grey;
+}
 
- 
+
+.info:hover {
+    color: red;
+}
+
+ .footer {
+   position: absolute;
+  color: yellow;
+  right: 0;
+  bottom: 0;
+  font-size: 10px;
+  left: 0;
+  padding: 1rem;
+  padding-right: 5%;
+  background-color: none;
+  text-align: right;
+ }
 
 
 
@@ -215,25 +234,38 @@ input.question:invalid ~ input[type="submit"], textarea.question:invalid ~ input
 ++++++++++++++++++++++++++++++++
 */
 
-body {
+ #logo {
+  padding: 0px;
+  margin: 0px;
+  width: 70%; 
+  max-width: 300px
+}
 
-  background-image: url('https://joseangelbarrera.github.io/leagueOfComics/images/home_background.jpg');
-/*     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center*/
+body {
+  background-image: url('/images/home_background_magazine.jpg');
      background-color: black;
     background-size: cover;
     background-attachment: fixed;
       background-repeat: no-repeat;
+      background-size: 100%;
 }
 
+
+
+@media only screen 
+and (min-device-width : 750px) 
+and (orientation : portrait) {
+body {
+    background-image: url('/images/home_background_magazine.jpg');
+  }
+}
 
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) 
 and (orientation : portrait) {
   body {
-    background-image: url('https://joseangelbarrera.github.io/leagueOfComics/images/home_background_mobile_small.jpg');
+    background-image: url('images/home_background_mobile_small_magazine.jpg');
   }
 }
 
@@ -242,8 +274,7 @@ and (min-device-width : 375px)
 and (max-device-width : 667px) 
 and (orientation : landscape) {
   body {
-
-    background-image: url('https://joseangelbarrera.github.io/leagueOfComics/images/home_background.jpg');
+    background-image: url('images/home_background_magazine.jpg');
   }
 }
 
