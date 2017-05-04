@@ -42,6 +42,13 @@ h1 {
   margin-bottom: 2.5%;
 }
 
+h4 {
+  font-family: 'Bangers', sans-serif;
+  font-size: 28px;
+  margin-bottom: 2.5%;
+  color: yellow;
+}
+
 input,
 span,
 
@@ -95,7 +102,6 @@ input[type="submit"] {
 }
 
 
- 
 
 
 
@@ -296,4 +302,8 @@ and (orientation : landscape) {
 .jumbotron{
 /*	background-image: url(http://cdn.gamers.vg/wp-content/uploads/2016/01/gj0ykbay7cewf84f0sd7.jpg);
 */	
+}
+
+header {
+  color: red;
 }
