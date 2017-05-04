@@ -11,7 +11,7 @@ angular.module('comicApp')
                    controller: 'resultsController'
                  })
 
-            .when('/comic_info', {
+            .when('/comic_info/:infoResults', {
               templateUrl: '/templates/comic_info.html',
               controller: 'infoController'
             })
