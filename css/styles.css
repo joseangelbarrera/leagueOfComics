@@ -42,6 +42,13 @@ h1 {
   margin-bottom: 2.5%;
 }
 
+h4 {
+  font-family: 'Bangers', sans-serif;
+  font-size: 28px;
+  margin-bottom: 2.5%;
+  color: yellow;
+}
+
 input,
 span,
 
@@ -297,3 +304,6 @@ and (orientation : landscape) {
 */	
 }
 
+header {
+  color: red;
+}
