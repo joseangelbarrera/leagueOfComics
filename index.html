@@ -22,14 +22,10 @@
    <!--  <div>
         <a href=""><img id="logo" src="images/logo_medium.png"></a>
     </div> -->
-    <div ng-hide="section === 'comic_search'" ng-include src="'/templates/includes/header.html'"></div>
+    
     <ng-view></ng-view>
     <div ng-hide="section === 'comic_search'" ng-include src="'/templates/includes/footer.html'"></div>
-    <footer>
-        <p class="footer">
-            <a href="about.html" class="info"">About this project</a>
-        </p>
-    </footer>
+   
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
