@@ -7,7 +7,7 @@
 
    // $scope.searchComicButton = function () {
    //   console.log($scope.comicInput)
-   comicAppService.searchComics($routeParams.searchResults)
+   comicAppService.searchComics($routeParams.searchResults) // We send to searchComics() the $routeParams
              .then(function (response) {
                $scope.comiclist = response
                console.log($scope.comiclist)
