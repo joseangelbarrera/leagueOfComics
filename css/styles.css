@@ -222,7 +222,7 @@ End of the CSS from searcher
 }
 
 body {
-    background-image: url('/images/home_background_magazine.jpg');
+    background-image: url('images/home_background_magazine.jpg');
     background-color: black;
     background-size: cover;
     background-attachment: fixed;
@@ -232,7 +232,7 @@ body {
 
 @media only screen and (min-device-width: 750px) and (orientation: portrait) {
     body {
-        background-image: url('/images/home_background_magazine.jpg');
+        background-image: url('images/home_background_magazine.jpg');
     }
 }
 
