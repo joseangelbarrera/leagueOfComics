@@ -1,24 +1,34 @@
-# leagueOfComics
+![icons](images/icons.png)
 
-How many times do you has needed share with your friends your favourity comics?
+# League of Comics Angular App
 
-We have the solution!!! The best service to search online cover of comics. Easy to use, free of charge.
+This repository contains our first team app project developed with AngularJS.  Our app allows you to search **comics** and find information about them like covers, publish dates and a description of the volume. The API we used is called **[Comic Vine](https://comicvine.gamespot.com/api/)** and we apprecciate their support!
 
-Yair made the code of this fantastic app. Sergio invent the solution, and José Angel wrote this text. The perfect team for the perfect project.
+The app was coded  with the text editor [Sublime Text 3](https://www.sublimetext.com/)
 
-And, how we decide to named it?
+[![image1](images/capture2.jpg)](https://joseangelbarrera.github.io/leagueOfComics/#/)
 
-##League of Comics. Could be a better name?
+## Comming soon...
 
-In League of Comics you will obtain the next information:
+New search by Author, by character and date
+Ranking for most popular comics and a _Like Button_
+Order by date, alphabetical, etc. 
 
-- Name of the isue.
-- Cover picture.
-- Year of edition.
-- Details about all of it.
+## Authors
 
-Do you need more? Imposibe. All is here for you.
+[Jose Ángel](https://github.com/joseangelbarrera)
+[Sergio](https://github.com/misan7)
+[Yair](https://github.com/Riay)
 
-Take a look to our app [here!](https://joseangelbarrera.github.io/leagueOfComics/) and if you wan to support us, please make a donation in thhis bank account:
 
-Nooooo!!! It is a joke, it's totally free :))
+## Acknowledgments
+
+[Skylab Coders](http://www.skylabcoders.com/en)
+[JuanMa Garrido](https://github.com/juanmaguitar)
+[Alejandro DG](https://github.com/agandia9)
+[Ignasi Amargós](https://github.com/Iggy-Codes)
+
+[![image1](images/capture1.jpg)](https://joseangelbarrera.github.io/leagueOfComics/#/)
+
+Link to our app [here](https://joseangelbarrera.github.io/leagueOfComics/#/)!
+
