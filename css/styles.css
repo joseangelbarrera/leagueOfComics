@@ -222,7 +222,7 @@ End of the CSS from searcher
 }
 
 body {
-    background-image: url('images/home_background_magazine.jpg');
+    background-image: url('../images/home_background_magazine.jpg');
     background-color: black;
     background-size: cover;
     background-attachment: fixed;
@@ -232,19 +232,19 @@ body {
 
 @media only screen and (min-device-width: 750px) and (orientation: portrait) {
     body {
-        background-image: url('images/home_background_magazine.jpg');
+        background-image: url('../images/home_background_magazine.jpg');
     }
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
     body {
-        background-image: url('images/home_background_mobile_small_magazine.jpg');
+        background-image: url('../images/home_background_mobile_small_magazine.jpg');
     }
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
     body {
-        background-image: url('images/home_background_magazine.jpg');
+        background-image: url('../images/home_background_magazine.jpg');
     }
 }
 
