@@ -367,11 +367,6 @@ New Search for header
     z-index: 3;
 }
 
-.search-query:focus {
-    width: 260px;
-}
-
-
 .search_form {
     display: flex;
     flex-wrap: wrap;
@@ -393,6 +388,6 @@ New Search for header
     flex-wrap: nowrap;
     background-position: left center;
     margin: 0px;
-    background-image: url(/images/button_small.png);
+    background-image: url('../images/button_small.png');
     background-repeat: no-repeat;
 }

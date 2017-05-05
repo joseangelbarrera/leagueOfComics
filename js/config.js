@@ -12,7 +12,7 @@ angular.module('comicApp')
         })
 
         .when('/comic_info/:infoResults', {
-          templateUrl: '/templates/comic_info.html',
+          templateUrl: 'templates/comic_info.html',
           controller: 'infoController'
         })
     })
