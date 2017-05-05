@@ -1,10 +1,3 @@
-/* Comic-info CSS */
-
-/** {
-    border: blue 1px solid;
-}
-
-*/
 /*
 +++++++++++++++++++++++++++++++++++
 This is the code for the first imput area.
@@ -412,4 +405,30 @@ New Search for header
     opacity:0.6;
     cursor:pointer;
     -webkit-transition-duration: 0.5s;
+}
+
+/* COMIC_INFO */
+
+.textbox {
+    color: white;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.textbox h3 {
+    font-family: 'Bangers', sans-serif;
+    font-size: 45px;
+}
+
+.textbox em {
+    font-size: 20px;
+}
+
+.header_mar {
+    padding-bottom: 40px;
+}
+
+.cover_img {
+    border-radius: 8px;
+    box-shadow: 0 0 15px 3px white;
 }
